@@ -1,0 +1,206 @@
+/* Your styles here */
+
+/* general styles */
+body {
+  font-family: "open sans";
+  background-color: rgb(234, 238, 239);
+}
+/* HEADER style */
+.logo {
+  background-color: rgb(34, 47, 63);
+}
+header > div > figure > img {
+  width: 100px;
+  padding: 10px;
+  padding-left: 40px;
+}
+header > div > ul > li {
+  display: inline;
+  padding-right: 25px;
+  color: white;
+}
+header > div > ul > a {
+  text-decoration: none;
+  display: inline-block;
+  padding-right: 15px;
+  color: white;
+  font-size: 14px;
+}
+
+header > div > ul {
+  padding-top: 10px;
+  list-style-type: none;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  background-color: rgb(54, 71, 89);
+}
+/* MAIN Styles*/
+main {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.space {
+  padding: 20px;
+}
+
+main > div > h3 {
+  text-align: center;
+  background-color: rgb(245, 102, 0);
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.title {
+  background-image: url(../images/bg-image.png);
+  background-size: contain;
+  text-align: center;
+  padding: 30px;
+  line-height: 2;
+  color: white;
+}
+.title > h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.firstblock {
+  background-color: white;
+}
+.titlefirstblock {
+  padding: 15px;
+}
+.titlefirstblock > span {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px;
+}
+.titlefirstblock > a {
+  color: rgb(16, 78, 85);
+  font-weight: bold;
+  text-decoration: none;
+}
+.imgfirstblock {
+  width: 100%;
+  text-align: center;
+}
+.img1 {
+  padding-right: 10px;
+  max-width: 22%;
+  display: inline-block;
+}
+
+.img1 > figure > img {
+  max-width: 100%;
+  border-radius: 10%;
+  overflow: hidden;
+  height: 300px;
+  object-fit: cover;
+  box-shadow: 9px 13px 24px -8px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 9px 13px 24px -8px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 9px 13px 24px -8px rgba(0, 0, 0, 0.5);
+}
+
+.img2 {
+  padding: 10px;
+  max-width: 22%;
+  display: inline-block;
+}
+
+.img2 > figure > img {
+  max-width: 100%;
+  border-radius: 10%;
+  overflow: hidden;
+  height: 300px;
+  object-fit: cover;
+  box-shadow: 9px 13px 24px -8px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 9px 13px 24px -8px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 9px 13px 24px -8px rgba(0, 0, 0, 0.5);
+}
+
+.img3 {
+  padding: 10px;
+  max-width: 22%;
+  display: inline-block;
+}
+
+.img3 > figure > img {
+  max-width: 100%;
+  border-radius: 10%;
+  overflow: hidden;
+  height: 300px;
+  object-fit: cover;
+  box-shadow: 9px 13px 24px -8px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 9px 13px 24px -8px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 9px 13px 24px -8px rgba(0, 0, 0, 0.5);
+}
+
+.img4 {
+  padding: 10px;
+  max-width: 22%;
+  display: inline-block;
+}
+
+.img4 > figure > img {
+  max-width: 100%;
+  border-radius: 10%;
+  overflow: hidden;
+  height: 300px;
+  object-fit: cover;
+  box-shadow: 9px 13px 24px -8px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 9px 13px 24px -8px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 9px 13px 24px -8px rgba(0, 0, 0, 0.5);
+}
+.secondblock {
+  text-align: center;
+}
+.secondblock > figure > img {
+  max-width: 100%;
+  padding: 10px;
+}
+.secondblock > span {
+  font-weight: bold;
+  padding: 20px;
+  font-size: 20px;
+}
+.secondblock > a {
+  font-weight: bold;
+  color: rgb(16, 78, 85);
+  text-decoration: none;
+}
+.thirdblock {
+  padding-top: 20px;
+  text-align: center;
+}
+.thirdblock > figure > img {
+  max-width: 100%;
+  padding: 10px;
+}
+.thirdblock > span {
+  font-weight: bold;
+  padding: 20px;
+  font-size: 20px;
+}
+.thirdblock > a {
+  font-weight: bold;
+  color: rgb(16, 78, 85);
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+  padding-top: 20px;
+}
+footer > div {
+  background-color: rgb(54, 71, 89);
+  padding: 10px;
+}
+footer > div > a {
+  color: white;
+  font-weight: bold;
+}
+footer > figure {
+  background-color: rgb(34, 47, 63);
+}
+
+footer > figure > img {
+  width: 200px;
+  padding: 50px;
+}
