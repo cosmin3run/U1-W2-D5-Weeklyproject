@@ -103,10 +103,13 @@ console.log(carsComplete);
 */
 const justTrims = [];
 
-for (let i = 0; i < cars.length; i++) {
-  const justTrims = cars[i].trims;
-  console.log(justTrims);
+// console.log(cars[0].trims);
+// console.log(cars[1].trims);
+// console.log(cars[2].trims);
+for (let i = 0; i < carsComplete.length; i++) {
+  justTrims.push(carsComplete[i].trims[0]);
 }
+console.log(justTrims);
 
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
@@ -132,3 +135,15 @@ while (i === "32") {
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+
+const positionArray = [];
+for (let i = 0; i > charactersArray.length; i++) {
+  switch (character) {
+    case "g":
+      positionArray.push(1);
+      break;
+    case "b":
+      positionArray.push(2);
+      break;
+  }
+}
